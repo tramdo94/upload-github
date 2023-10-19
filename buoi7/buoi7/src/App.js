@@ -26,6 +26,9 @@ export default function App(){
                 <li>
                     <Link to ="product/2">Product 2</Link>
                 </li>
+                <li>
+                    <Link to ="contact">Contact</Link>
+                </li>
             </ul>
             <Routes>
             <Route index element={<Header/>}></Route>
